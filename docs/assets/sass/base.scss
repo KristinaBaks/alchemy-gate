@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    min-height: 100%;
+    font-size: 62.5%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body {
+    box-sizing: border-box;
+    min-height: 100%;
+    min-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    background-image: linear-gradient(to top left, #6eb0d0, #749081, #d473d0, #e65051, #eaae1a);
+}

@@ -1,0 +1,54 @@
+@keyframes animateBubble { 
+    0% {
+        top: 40vh;
+    }
+    100% {
+        top: 0;
+    }
+}
+@keyframes sideWays {
+    0% {
+        left: 5vw;
+    }
+    100% {
+        left: 20vw;
+    }
+}
+@keyframes sideWays2 {
+    0% {
+        left: 50vw;
+    }
+    100% {
+        left: 70vw;
+    }
+}
+@keyframes sideWays3 {
+    0% {
+        left: 25vw;
+    }
+    100% {
+        left: 45vw;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: .1;
+    }
+    50% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut { 
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,48 @@
+.heading-primary {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: .8;
+    position: absolute;
+    bottom: 18.5vh;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: radial-gradient(circle at bottom, #76777a, #1a1a1a);
+    color: transparent;
+    background-clip: text;
+    z-index: -1;
+
+    &--2 {
+        font-size: 9.5rem;
+    }
+}
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+
+    &__header {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        width: 80vw;
+        color: #dfdfdf;
+        padding: 2rem 2rem 0 2rem;
+    }
+    &__section {
+        line-height: 2.5;
+        margin: 0 4rem 3rem 4rem;
+    }
+}
+.heading-secondary {
+    font-size: 5rem;
+    font-style: italic;
+    margin: 7rem 4rem 3rem 4rem;
+    background-image: linear-gradient(to top left, #6eb0d0, #749081, #d473d0, #e65051, #eaae1a);
+    color: transparent;
+    background-clip: text;
+    overflow-wrap: break-word;   
+}
